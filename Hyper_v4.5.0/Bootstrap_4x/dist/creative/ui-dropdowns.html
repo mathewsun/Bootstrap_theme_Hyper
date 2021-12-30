@@ -1,0 +1,1954 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Dropdowns | Hyper - Responsive Bootstrap 4 Admin Dashboard</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description" />
+        <meta content="Coderthemes" name="author" />
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+        <!-- App css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app-creative.min.css" rel="stylesheet" type="text/css" id="light-style" />
+        <link href="assets/css/app-creative-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
+
+    </head>
+
+    <body class="loading" data-layout="topnav" data-layout-config='{"layoutBoxed":false,"darkMode":false,"showRightSidebarOnStart": true}'>
+        <!-- Begin page -->
+        <div class="wrapper">
+
+            <!-- ============================================================== -->
+            <!-- Start Page Content here -->
+            <!-- ============================================================== -->
+
+            <div class="content-page">
+                <div class="content">
+                    <!-- Topbar Start -->
+                    <div class="navbar-custom topnav-navbar topnav-navbar-dark">
+                        <div class="container-fluid">
+
+                            <!-- LOGO -->
+                            <a href="" class="topnav-logo">
+                                <span class="topnav-logo-lg">
+                                    <img src="assets/images/logo-light.png" alt="" height="16">
+                                </span>
+                                <span class="topnav-logo-sm">
+                                    <img src="assets/images/logo_sm_dark.png" alt="" height="16">
+                                </span>
+                            </a>
+
+                            <ul class="list-unstyled topbar-right-menu float-right mb-0">
+
+                                <li class="dropdown notification-list d-lg-none">
+                                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                        <i class="dripicons-search noti-icon"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-animated dropdown-lg p-0">
+                                        <form class="p-3">
+                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
+                                        </form>
+                                    </div>
+                                </li>
+            
+                                <li class="dropdown notification-list topbar-dropdown d-none d-lg-block">
+                                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" id="topbar-languagedrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <img src="assets/images/flags/us.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">English</span> <i class="mdi mdi-chevron-down align-middle"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu" aria-labelledby="topbar-languagedrop">
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">German</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Italian</span>
+                                        </a>
+                    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Spanish</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-1" height="12"> <span class="align-middle">Russian</span>
+                                        </a>
+    
+                                    </div>
+                                </li>
+    
+                                <li class="dropdown notification-list">
+                                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" id="topbar-notifydrop" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="dripicons-bell noti-icon"></i>
+                                        <span class="noti-icon-badge"></span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg" aria-labelledby="topbar-notifydrop">
+    
+                                        <!-- item-->
+                                        <div class="dropdown-item noti-title">
+                                            <h5 class="m-0">
+                                                <span class="float-right">
+                                                    <a href="javascript: void(0);" class="text-dark">
+                                                        <small>Clear All</small>
+                                                    </a>
+                                                </span>Notification
+                                            </h5>
+                                        </div>
+    
+                                        <div style="max-height: 230px;" data-simplebar>
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon bg-primary">
+                                                    <i class="mdi mdi-comment-account-outline"></i>
+                                                </div>
+                                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                                    <small class="text-muted">1 min ago</small>
+                                                </p>
+                                            </a>
+    
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon bg-info">
+                                                    <i class="mdi mdi-account-plus"></i>
+                                                </div>
+                                                <p class="notify-details">New user registered.
+                                                    <small class="text-muted">5 hours ago</small>
+                                                </p>
+                                            </a>
+    
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon">
+                                                    <img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                                <p class="notify-details">Cristina Pride</p>
+                                                <p class="text-muted mb-0 user-msg">
+                                                    <small>Hi, How are you? What about our next meeting</small>
+                                                </p>
+                                            </a>
+    
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon bg-primary">
+                                                    <i class="mdi mdi-comment-account-outline"></i>
+                                                </div>
+                                                <p class="notify-details">Caleb Flakelar commented on Admin
+                                                    <small class="text-muted">4 days ago</small>
+                                                </p>
+                                            </a>
+    
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon">
+                                                    <img src="assets/images/users/avatar-4.jpg" class="img-fluid rounded-circle" alt="" /> </div>
+                                                <p class="notify-details">Karen Robinson</p>
+                                                <p class="text-muted mb-0 user-msg">
+                                                    <small>Wow ! this admin looks good and awesome design</small>
+                                                </p>
+                                            </a>
+    
+                                            <!-- item-->
+                                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                                <div class="notify-icon bg-info">
+                                                    <i class="mdi mdi-heart"></i>
+                                                </div>
+                                                <p class="notify-details">Carlos Crouch liked
+                                                    <b>Admin</b>
+                                                    <small class="text-muted">13 days ago</small>
+                                                </p>
+                                            </a>
+                                        </div>
+    
+                                        <!-- All-->
+                                        <a href="javascript:void(0);" class="dropdown-item text-center text-primary notify-item notify-all">
+                                            View All
+                                        </a>
+    
+                                    </div>
+                                </li>
+
+                                <li class="dropdown notification-list d-none d-sm-inline-block">
+                                    <a class="nav-link dropdown-toggle arrow-none" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+                                        <i class="dripicons-view-apps noti-icon"></i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated dropdown-lg p-0">
+    
+                                        <div class="p-2">
+                                            <div class="row no-gutters">
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/slack.png" alt="slack">
+                                                        <span>Slack</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/github.png" alt="Github">
+                                                        <span>GitHub</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/dribbble.png" alt="dribbble">
+                                                        <span>Dribbble</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+    
+                                            <div class="row no-gutters">
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
+                                                        <span>Bitbucket</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/dropbox.png" alt="dropbox">
+                                                        <span>Dropbox</span>
+                                                    </a>
+                                                </div>
+                                                <div class="col">
+                                                    <a class="dropdown-icon-item" href="#">
+                                                        <img src="assets/images/brands/g-suite.png" alt="G Suite">
+                                                        <span>G Suite</span>
+                                                    </a>
+                                                </div>
+                
+                                            </div>
+                                        </div>
+    
+                                    </div>
+                                </li>
+
+                                <li class="notification-list">
+                                    <a class="nav-link right-bar-toggle" href="javascript: void(0);">
+                                        <i class="dripicons-gear noti-icon"></i>
+                                    </a>
+                                </li>
+    
+                                <li class="dropdown notification-list">
+                                    <a class="nav-link dropdown-toggle nav-user arrow-none mr-0" data-toggle="dropdown" id="topbar-userdrop" href="#" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <span class="account-user-avatar"> 
+                                            <img src="assets/images/users/avatar-1.jpg" alt="user-image" class="rounded-circle">
+                                        </span>
+                                        <span>
+                                            <span class="account-user-name">Dominic Keller</span>
+                                            <span class="account-position">Founder</span>
+                                        </span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-animated topbar-dropdown-menu profile-dropdown" aria-labelledby="topbar-userdrop">
+                                        <!-- item-->
+                                        <div class=" dropdown-header noti-title">
+                                            <h6 class="text-overflow m-0">Welcome !</h6>
+                                        </div>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <i class="mdi mdi-account-circle mr-1"></i>
+                                            <span>My Account</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <i class="mdi mdi-account-edit mr-1"></i>
+                                            <span>Settings</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <i class="mdi mdi-lifebuoy mr-1"></i>
+                                            <span>Support</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <i class="mdi mdi-lock-outline mr-1"></i>
+                                            <span>Lock Screen</span>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <i class="mdi mdi-logout mr-1"></i>
+                                            <span>Logout</span>
+                                        </a>
+    
+                                    </div>
+                                </li>
+
+                            </ul>
+                            <a class="navbar-toggle"  data-toggle="collapse" data-target="#topnav-menu-content">
+                                <div class="lines">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </a>
+                            <div class="app-search dropdown">
+                                <form>
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Search..." id="top-search">
+                                        <span class="mdi mdi-magnify search-icon"></span>
+                                        <div class="input-group-append">
+                                            <button class="btn btn-primary" type="submit">Search</button>
+                                        </div>
+                                    </div>
+                 
+                                </form>
+
+                                <div class="dropdown-menu dropdown-menu-animated dropdown-lg" id="search-dropdown">
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h5 class="text-overflow mb-2">Found <span class="text-danger">17</span> results</h5>
+                                    </div>
+    
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="uil-notes font-16 mr-1"></i>
+                                        <span>Analytics Report</span>
+                                    </a>
+    
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="uil-life-ring font-16 mr-1"></i>
+                                        <span>How can I help you?</span>
+                                    </a>
+    
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <i class="uil-cog font-16 mr-1"></i>
+                                        <span>User profile settings</span>
+                                    </a>
+    
+                                    <!-- item-->
+                                    <div class="dropdown-header noti-title">
+                                        <h6 class="text-overflow mb-2 text-uppercase">Users</h6>
+                                    </div>
+    
+                                    <div class="notification-list">
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="media">
+                                                <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-2.jpg" alt="Generic placeholder image" height="32">
+                                                <div class="media-body">
+                                                    <h5 class="m-0 font-14">Erwin Brown</h5>
+                                                    <span class="font-12 mb-0">UI Designer</span>
+                                                </div>
+                                            </div>
+                                        </a>
+    
+                                        <!-- item-->
+                                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                            <div class="media">
+                                                <img class="d-flex mr-2 rounded-circle" src="assets/images/users/avatar-5.jpg" alt="Generic placeholder image" height="32">
+                                                <div class="media-body">
+                                                    <h5 class="m-0 font-14">Jacob Deo</h5>
+                                                    <span class="font-12 mb-0">Developer</span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+            
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end Topbar -->
+
+                    <div class="topnav shadow-sm">
+                        <div class="container-fluid">
+                            <nav class="navbar navbar-light navbar-expand-lg topnav-menu">
+        
+                                <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                    <ul class="navbar-nav">
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-dashboards" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="uil-dashboard mr-1"></i>Dashboards <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-dashboards">
+                                                <a href="dashboard-analytics.html" class="dropdown-item">Analytics</a>
+                                                <a href="dashboard-crm.html" class="dropdown-item">CRM</a>
+                                                <a href="index.html" class="dropdown-item">Ecommerce</a>
+                                                <a href="dashboard-projects.html" class="dropdown-item">Projects</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-apps" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="uil-apps mr-1"></i>Apps <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-apps">
+                                                <a href="apps-calendar.html" class="dropdown-item">Calendar</a>
+                                                <a href="apps-chat.html" class="dropdown-item">Chat</a>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ecommerce" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Ecommerce <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-ecommerce">
+                                                        <a href="apps-ecommerce-products.html" class="dropdown-item">Products</a>
+                                                        <a href="apps-ecommerce-products-details.html" class="dropdown-item">Products Details</a>
+                                                        <a href="apps-ecommerce-orders.html" class="dropdown-item">Orders</a>
+                                                        <a href="apps-ecommerce-orders-details.html" class="dropdown-item">Order Details</a>
+                                                        <a href="apps-ecommerce-customers.html" class="dropdown-item">Customers</a>
+                                                        <a href="apps-ecommerce-shopping-cart.html" class="dropdown-item">Shopping Cart</a>
+                                                        <a href="apps-ecommerce-checkout.html" class="dropdown-item">Checkout</a>
+                                                        <a href="apps-ecommerce-sellers.html" class="dropdown-item">Sellers</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-email" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Email <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-email">
+                                                        <a href="apps-email-inbox.html" class="dropdown-item">Inbox</a>
+                                                        <a href="apps-email-read.html" class="dropdown-item">Read Email</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-project" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Projects <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-project">
+                                                        <a href="apps-projects-list.html" class="dropdown-item">List</a>
+                                                        <a href="apps-projects-details.html" class="dropdown-item">Details</a>
+                                                        <a href="apps-projects-gantt.html" class="dropdown-item">Gantt</a>
+                                                        <a href="apps-projects-add.html" class="dropdown-item">Create Project</a>
+                                                    </div>
+                                                </div>
+                                                <a href="apps-social-feed.html" class="dropdown-item">Social Feed</a>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-tasks" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Tasks <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-tasks">
+                                                        <a href="apps-tasks.html" class="dropdown-item">List</a>
+                                                        <a href="apps-tasks-details.html" class="dropdown-item">Details</a>
+                                                        <a href="apps-kanban.html" class="dropdown-item">Kanban Board</a>
+                                                    </div>
+                                                </div>
+                                                <a href="apps-file-manager.html" class="dropdown-item">File Manager</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-pages" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="uil-copy-alt mr-1"></i>Pages <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-pages">
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-auth" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Authenitication <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-auth">
+                                                        <a href="pages-login.html" class="dropdown-item">Login</a>
+                                                        <a href="pages-login-2.html" class="dropdown-item">Login 2</a>
+                                                        <a href="pages-register.html" class="dropdown-item">Register</a>
+                                                        <a href="pages-register-2.html" class="dropdown-item">Register 2</a>
+                                                        <a href="pages-logout.html" class="dropdown-item">Logout</a>
+                                                        <a href="pages-logout-2.html" class="dropdown-item">Logout 2</a>
+                                                        <a href="pages-recoverpw.html" class="dropdown-item">Recover Password</a>
+                                                        <a href="pages-recoverpw-2.html" class="dropdown-item">Recover Password 2</a>
+                                                        <a href="pages-lock-screen.html" class="dropdown-item">Lock Screen</a>
+                                                        <a href="pages-lock-screen-2.html" class="dropdown-item">Lock Screen 2</a>
+                                                        <a href="pages-confirm-mail.html" class="dropdown-item">Confirm Mail</a>
+                                                        <a href="pages-confirm-mail-2.html" class="dropdown-item">Confirm Mail 2</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-error" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Error <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-error">
+                                                        <a href="pages-404.html" class="dropdown-item">Error 404</a>
+                                                        <a href="pages-404-alt.html" class="dropdown-item">Error 404-alt</a>
+                                                        <a href="pages-500.html" class="dropdown-item">Error 500</a>
+                                                    </div>
+                                                </div>
+                                                <a href="pages-starter.html" class="dropdown-item">Starter Page</a>
+                                                <a href="pages-preloader.html" class="dropdown-item">With Preloader</a>
+                                                <a href="pages-profile.html" class="dropdown-item">Profile</a>
+                                                <a href="pages-profile-2.html" class="dropdown-item">Profile 2</a>
+                                                <a href="pages-invoice.html" class="dropdown-item">Invoice</a>
+                                                <a href="pages-faq.html" class="dropdown-item">FAQ</a>
+                                                <a href="pages-pricing.html" class="dropdown-item">Pricing</a>
+                                                <a href="pages-maintenance.html" class="dropdown-item">Maintenance</a>
+                                                <a href="pages-timeline.html" class="dropdown-item">Timeline</a>
+                                                <a href="landing.html" class="dropdown-item">Landing</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-components" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="uil-package mr-1"></i>Components <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-components">
+                                                <a href="widgets.html" class="dropdown-item">Widgets</a>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ui-kit" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Base UI 1 <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-ui-kit">
+                                                        <a href="ui-accordions.html" class="dropdown-item">Accordions</a>
+                                                        <a href="ui-alerts.html" class="dropdown-item">Alerts</a>
+                                                        <a href="ui-avatars.html" class="dropdown-item">Avatars</a>
+                                                        <a href="ui-badges.html" class="dropdown-item">Badges</a>
+                                                        <a href="ui-breadcrumb.html" class="dropdown-item">Breadcrumb</a>
+                                                        <a href="ui-buttons.html" class="dropdown-item">Buttons</a>
+                                                        <a href="ui-cards.html" class="dropdown-item">Cards</a>
+                                                        <a href="ui-carousel.html" class="dropdown-item">Carousel</a>
+                                                        <a href="ui-dropdowns.html" class="dropdown-item">Dropdowns</a>
+                                                        <a href="ui-embed-video.html" class="dropdown-item">Embed Video</a>
+                                                        <a href="ui-grid.html" class="dropdown-item">Grid</a>
+                                                        <a href="ui-list-group.html" class="dropdown-item">List Group</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-ui-kit2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Base UI 2 <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-ui-kit2">
+                                                        <a href="ui-media-object.html" class="dropdown-item">Media Object</a>
+                                                        <a href="ui-modals.html" class="dropdown-item">Modals</a>
+                                                        <a href="ui-notifications.html" class="dropdown-item">Notifications</a>
+                                                        <a href="ui-pagination.html" class="dropdown-item">Pagination</a>
+                                                        <a href="ui-popovers.html" class="dropdown-item">Popovers</a>
+                                                        <a href="ui-progress.html" class="dropdown-item">Progress</a>
+                                                        <a href="ui-ribbons.html" class="dropdown-item">Ribbons</a>
+                                                        <a href="ui-spinners.html" class="dropdown-item">Spinners</a>
+                                                        <a href="ui-tabs.html" class="dropdown-item">Tabs</a>
+                                                        <a href="ui-tooltips.html" class="dropdown-item">Tooltips</a>
+                                                        <a href="ui-typography.html" class="dropdown-item">Typography</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-extended-ui" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Extended UI <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-extended-ui">
+                                                        <a href="extended-dragula.html" class="dropdown-item">Dragula</a>
+                                                        <a href="extended-range-slider.html" class="dropdown-item">Range Slider</a>
+                                                        <a href="extended-ratings.html" class="dropdown-item">Ratings</a>
+                                                        <a href="extended-scrollbar.html" class="dropdown-item">Scrollbar</a>
+                                                        <a href="extended-scrollspy.html" class="dropdown-item">Scrollspy</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-charts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Charts <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-charts">
+                                                        <div class="dropdown">
+                                                            <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-apex-charts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Apex Charts <div class="arrow-down"></div>
+                                                            </a>
+                                                            <div class="dropdown-menu" aria-labelledby="topnav-apex-charts">
+                                                                <a href="charts-apex-area.html" class="dropdown-item">Area</a>
+                                                                <a href="charts-apex-bar.html" class="dropdown-item">Bar</a>
+                                                                <a href="charts-apex-bubble.html" class="dropdown-item">Bubble</a>
+                                                                <a href="charts-apex-candlestick.html" class="dropdown-item">Candlestick</a>
+                                                                <a href="charts-apex-column.html" class="dropdown-item">Column</a>
+                                                                <a href="charts-apex-heatmap.html" class="dropdown-item">Heatmap</a>
+                                                                <a href="charts-apex-line.html" class="dropdown-item">Line</a>
+                                                                <a href="charts-apex-mixed.html" class="dropdown-item">Mixed</a>
+                                                                <a href="charts-apex-pie.html" class="dropdown-item">Pie</a>
+                                                                <a href="charts-apex-radar.html" class="dropdown-item">Radar</a>
+                                                                <a href="charts-apex-radialbar.html" class="dropdown-item">RadialBar</a>
+                                                                <a href="charts-apex-scatter.html" class="dropdown-item">Scatter</a>
+                                                                <a href="charts-apex-sparklines.html" class="dropdown-item">Sparklines</a>
+                                                            </div>
+                                                        </div>
+                                                        <a href="charts-chartjs.html" class="dropdown-item">Chartjs</a>
+                                                        <a href="charts-brite.html" class="dropdown-item">Britecharts</a>
+                                                        <a href="charts-sparkline.html" class="dropdown-item">Sparklines</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-forms" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Forms <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-forms">
+                                                        <a href="form-elements.html" class="dropdown-item">Basic Elements</a>
+                                                        <a href="form-advanced.html" class="dropdown-item">Form Advanced</a>
+                                                        <a href="form-validation.html" class="dropdown-item">Validation</a>
+                                                        <a href="form-wizard.html" class="dropdown-item">Wizard</a>
+                                                        <a href="form-fileuploads.html" class="dropdown-item">File Uploads</a>
+                                                        <a href="form-editors.html" class="dropdown-item">Editors</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-tables" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Tables <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-tables">
+                                                        <a href="tables-basic.html" class="dropdown-item">Basic Tables</a>
+                                                        <a href="tables-datatable.html" class="dropdown-item">Data Tables</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-icons" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Icons <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-icons">
+                                                        <a href="icons-dripicons.html" class="dropdown-item">Dripicons</a>
+                                                        <a href="icons-mdi.html" class="dropdown-item">Material Design</a>
+                                                        <a href="icons-unicons.html" class="dropdown-item">Unicons</a>
+                                                    </div>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-maps" role="button" data-toggle="dropdown" aria-expanded="false">
+                                                        Maps <div class="arrow-down"></div>
+                                                    </a>
+                                                    <div class="dropdown-menu" aria-labelledby="topnav-maps">
+                                                        <a href="maps-google.html" class="dropdown-item">Google Maps</a>
+                                                        <a href="maps-vector.html" class="dropdown-item">Vector Maps</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-layouts" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <i class="uil-window mr-1"></i>Layouts <div class="arrow-down"></div>
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="topnav-layouts">
+                                                <a href="layouts-vertical.html" class="dropdown-item">Vertical</a>
+                                                <a href="layouts-detached.html" class="dropdown-item">Detached</a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+
+                    
+                    <!-- Start Content-->
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Hyper</a></li>
+                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Base UI</a></li>
+                                            <li class="breadcrumb-item active">Dropdowns</li>
+                                        </ol>
+                                    </div>
+                                    <h4 class="page-title">Dropdowns</h4>
+                                </div>
+                            </div>
+                        </div>     
+                        <!-- end page title --> 
+
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Single button dropdowns</h4>
+                                        <p class="text-muted font-14">
+                                            Any single <code
+                                                >.btn</code> can be turned into a dropdown
+                                            toggle with some markup changes. Here’s how you can put them to work
+                                            with either <code>&lt;button&gt;</code>
+                                            elements:
+                                        </p>
+
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#single-button-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#single-button-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="single-button-preview">
+                                                <div class="row">
+                                                    <div class="col-auto">
+                                                        <div class="dropdown">
+                                                            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Dropdown button
+                                                            </button>
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+    
+                                                    <div class="col-auto">
+                                                        <div class="dropdown">
+                                                            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                                Dropdown link
+                                                            </a>
+                                                            
+                                                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                                <a class="dropdown-item" href="#">Action</a>
+                                                                <a class="dropdown-item" href="#">Another action</a>
+                                                                <a class="dropdown-item" href="#">Something else here</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="single-button-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Default Drodown --&gt;
+                                                        &lt;div class=&quot;dropdown&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light dropdown-toggle&quot; type=&quot;button&quot; id=&quot;dropdownMenuButton&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Dropdown button
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuButton&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Link with Dropdown --&gt;
+                                                        &lt;div class=&quot;dropdown&quot;&gt;
+                                                            &lt;a class=&quot;btn btn-secondary dropdown-toggle&quot; href=&quot;#&quot; role=&quot;button&quot; id=&quot;dropdownMenuLink&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Dropdown link
+                                                            &lt;/a&gt;
+                                                            
+                                                            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;dropdownMenuLink&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Variant</h4>
+                                        <p class="text-muted font-14">The best part is you can do this with any button variant, too:</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#variant-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#variant-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="variant-preview">
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Secondary</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Success</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Warning</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Danger</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+        
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="variant-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Light --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Light&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Secondary --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Secondary&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        
+                                                        &lt;!-- Primary --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Primary&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Success --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-success dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Success&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Info --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-info dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Info&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Warning --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-warning dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Warning&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Danger --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-danger dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Danger&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Dark --&gt;
+                                                        &lt;button type=&quot;button&quot; class=&quot;btn btn-dark dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dark&lt;/button&gt;
+                                                        &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                            &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Animated Dropdown</h4>
+                                        <p class="text-muted font-14">
+                                                Add <code>.dropdown-menu-animated</code>
+                                                to a <code>.dropdown-menu</code> to have animated dropdown menu.</p>
+
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#animated-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#animated-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="animated-preview">
+                                                <div class="dropdown">
+                                                    <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Animated Dropdown
+                                                    </button>
+                                                    <div class="dropdown-menu dropdown-menu-animated">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </div>
+
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="animated-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;div class=&quot;dropdown&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light dropdown-toggle&quot; type=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Animated Dropdown
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu dropdown-menu-animated&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Dropup variation</h4>
+                                        <p class="text-muted font-14">Trigger dropdown menus above elements
+                                                by adding <code>.dropup</code> to the parent
+                                                element.</p>
+
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#dropup-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#dropup-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="dropup-preview">
+                                                <!-- Default dropup button -->
+                                                <div class="btn-group dropup">
+                                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+    
+                                                <!-- Split dropup button -->
+                                                <div class="btn-group dropup">
+                                                    <button type="button" class="btn btn-light">
+                                                        Split dropup
+                                                    </button>
+                                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="dropup-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Default dropup button --&gt;
+                                                        &lt;div class=&quot;btn-group dropup&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;Dropup&lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+            
+                                                        &lt;!-- Split dropup button --&gt;
+                                                        &lt;div class=&quot;btn-group dropup&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-light&quot;&gt;
+                                                                Split dropup
+                                                            &lt;/button&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Dropright variation</h4>
+                                        <p class="text-muted font-14">Trigger dropdown menus at the right of the elements by adding <code>.dropright</code> to the parent element.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#dropright-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#dropright-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="dropright-preview">
+                                                <!-- Default dropright button -->
+                                                <div class="btn-group mb-2 dropright">
+                                                    <button type="button" class="btn btn-primary   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropright
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+    
+                                                <!-- Split dropright button -->
+                                                <div class="btn-group mb-2 dropright">
+                                                    <button type="button" class="btn btn-primary  ">
+                                                        Split dropright
+                                                    </button>
+                                                    <button type="button" class="btn btn-primary   dropdown-toggle-split dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropright</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="dropright-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Default dropright button --&gt;
+                                                        &lt;div class=&quot;btn-group mb-2 dropright&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary   dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Dropright
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+            
+                                                        &lt;!-- Split dropright button --&gt;
+                                                        &lt;div class=&quot;btn-group mb-2 dropright&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary  &quot;&gt;
+                                                                Split dropright
+                                                            &lt;/button&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary   dropdown-toggle-split dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropright&lt;/span&gt;
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Disabled Item</h4>
+                                        <p class="text-muted font-14">Add <code>.disabled</code> to items in the dropdown to <strong>style them as disabled</strong>.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#disabled-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#disabled-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="disabled-preview">
+                                                <!-- Disabled -->
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Disabled
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Regular link</a>
+                                                        <a class="dropdown-item disabled" href="#" tabindex="-1" aria-disabled="true">Disabled link</a>
+                                                        <a class="dropdown-item" href="#">Another link</a>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="disabled-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Disabled --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary   dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Disabled
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Regular link&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item disabled&quot; href=&quot;#&quot; tabindex=&quot;-1&quot; aria-disabled=&quot;true&quot;&gt;Disabled link&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Text</h4>
+                                        <p class="text-muted font-14">Place any freeform text within a dropdown menu with text and use spacing utilities. Note that you’ll likely need additional sizing styles to constrain the menu width.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#text-dropdown-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#text-dropdown-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="text-dropdown-preview">
+                                                <!-- Text Example -->
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-primary   dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Text Dropdown
+                                                    </button>
+                                                    <div class="dropdown-menu p-3 text-muted" style="max-width: 200px;">
+                                                        <p>
+                                                            Some example text that's free-flowing within the dropdown menu.
+                                                        </p>
+                                                        <p class="mb-0">
+                                                            And this is more example text.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="text-dropdown-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Text Example --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary   dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Text Dropdown
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu p-3 text-muted&quot; style=&quot;max-width: 200px;&quot;&gt;
+                                                                &lt;p&gt;
+                                                                    Some example text that's free-flowing within the dropdown menu.
+                                                                &lt;/p&gt;
+                                                                &lt;p class=&quot;mb-0&quot;&gt;
+                                                                    And this is more example text.
+                                                                &lt;/p&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                            </div> <!-- end col -->
+
+                            <div class="col-xl-6">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Menu alignment</h4>
+                                        <p class="text-muted font-14">
+                                            Add <code>.dropdown-menu-right</code>
+                                            to a <code>.dropdown-menu</code> to right
+                                            align the dropdown menu.
+                                        </p>
+
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#menu-alignment-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#menu-alignment-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="menu-alignment-preview">
+                                                <div class="dropdown">
+                                                    <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Right-aligned menu
+                                                    </button>
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="menu-alignment-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;div class=&quot;dropdown&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-light dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Right-aligned menu
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu dropdown-menu-right&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Split button dropdowns</h4>
+                                        <p class="text-muted font-14">
+                                            Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of <code>.dropdown-toggle-split</code> for proper spacing around the dropdown caret.
+                                        </p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#split-button-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#split-button-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="split-button-preview">
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-primary">Primary</button>
+                                                    <button type="button" class="btn btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-light">Secondary</button>
+                                                    <button type="button" class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-success">Success</button>
+                                                    <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-info">Info</button>
+                                                    <button type="button" class="btn btn-info dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-warning">Warning</button>
+                                                    <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                                <div class="btn-group mb-2">
+                                                    <button type="button" class="btn btn-danger">Danger</button>
+                                                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div><!-- /btn-group -->
+                                            
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="split-button-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;Primary&lt;/button&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-primary dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;&lt;!-- /btn-group --&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Sizing</h4>
+                                        <p class="text-muted font-14">Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.</p>
+
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#sizing-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#sizing-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="sizing-preview">
+                                                <!-- Large button groups (default and split) -->
+                                                <div class="btn-group">
+                                                    <button class="btn btn-light btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Large button
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button class="btn btn-light btn-lg" type="button">
+                                                        Large button
+                                                    </button>
+                                                    <button type="button" class="btn btn-lg btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+    
+                                                <!-- Small button groups (default and split) -->
+                                                <div class="btn-group">
+                                                    <button class="btn btn-light btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Small button
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                <div class="btn-group">
+                                                    <button class="btn btn-light btn-sm" type="button">
+                                                        Small button
+                                                    </button>
+                                                    <button type="button" class="btn btn-sm btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        <span class="sr-only">Toggle Dropdown</span>
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                        
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="sizing-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Large button groups (default and split) --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light btn-lg dropdown-toggle&quot; type=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Large button
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light btn-lg&quot; type=&quot;button&quot;&gt;
+                                                                Large button
+                                                            &lt;/button&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-lg btn-light dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+            
+                                                        &lt;!-- Small button groups (default and split) --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light btn-sm dropdown-toggle&quot; type=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Small button
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button class=&quot;btn btn-light btn-sm&quot; type=&quot;button&quot;&gt;
+                                                                Small button
+                                                            &lt;/button&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-sm btn-light dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropdown&lt;/span&gt;
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Dropleft variation</h4>
+                                        <p class="text-muted font-14">Trigger dropdown menus at the right of the elements by adding <code>.dropleft</code> to the parent element.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#dropleft-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#dropleft-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="dropleft-preview">
+                                                <!-- Default dropleft button -->
+                                                <div class="btn-group dropleft">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Dropleft
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                        <a class="dropdown-item" href="#">Something else here</a>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">Separated link</a>
+                                                    </div>
+                                                </div>
+                                                
+                                                <!-- Split dropleft button -->
+                                                <div class="btn-group">
+                                                    <div class="btn-group dropleft" role="group">
+                                                        <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true"
+                                                            aria-expanded="false">
+                                                            <span class="sr-only">Toggle Dropleft</span>
+                                                        </button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item" href="#">Action</a>
+                                                            <a class="dropdown-item" href="#">Another action</a>
+                                                            <a class="dropdown-item" href="#">Something else here</a>
+                                                            <div class="dropdown-divider"></div>
+                                                            <a class="dropdown-item" href="#">Separated link</a>
+                                                        </div>
+                                                    </div>
+                                                    <button type="button" class="btn btn-secondary">
+                                                        Split dropleft
+                                                    </button>
+                                                </div>
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="dropleft-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Default dropleft button --&gt;
+                                                        &lt;div class=&quot;btn-group dropleft&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Dropleft
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                        
+                                                        &lt;!-- Split dropleft button --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;div class=&quot;btn-group dropleft&quot; role=&quot;group&quot;&gt;
+                                                                &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle dropdown-toggle-split&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot;
+                                                                    aria-expanded=&quot;false&quot;&gt;
+                                                                    &lt;span class=&quot;sr-only&quot;&gt;Toggle Dropleft&lt;/span&gt;
+                                                                &lt;/button&gt;
+                                                                &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Something else here&lt;/a&gt;
+                                                                    &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                    &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Separated link&lt;/a&gt;
+                                                                &lt;/div&gt;
+                                                            &lt;/div&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary&quot;&gt;
+                                                                Split dropleft
+                                                            &lt;/button&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Active Item</h4>
+                                        <p class="text-muted font-14">Add <code>.active</code> to item in the dropdown to <strong>style them as active</strong>.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#active-item-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#active-item-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="active-item-preview">
+                                                <!-- Active Item -->
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Active Item
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="#">Regular link</a>
+                                                        <a class="dropdown-item active" href="#">Active link</a>
+                                                        <a class="dropdown-item" href="#">Another link</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="active-item-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Active Item --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Active Menu
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Regular link&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item active&quot; href=&quot;#&quot;&gt;Active link&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another link&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Headers</h4>
+                                        <p class="text-muted font-14">Add a header to label sections of actions in any dropdown menu.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#headers-item-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#headers-item-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="headers-item-preview">
+                                                <!-- Header Item -->
+                                                <div class="btn-group">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Header
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <h6 class="dropdown-header">Dropdown header</h6>
+                                                        <a class="dropdown-item" href="#">Action</a>
+                                                        <a class="dropdown-item" href="#">Another action</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="headers-item-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Header Item --&gt;
+                                                        &lt;div class=&quot;btn-group&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Header
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;h6 class=&quot;dropdown-header&quot;&gt;Dropdown header&lt;/h6&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Action&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Another action&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title">Forms</h4>
+                                        <p class="text-muted font-14">Put a form within a dropdown menu, or make it into a dropdown menu, and use margin or padding utilities to give it the negative space you require.</p>
+                        
+                                        <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <li class="nav-item">
+                                                <a href="#dropdown-form-preview" data-toggle="tab" aria-expanded="false" class="nav-link active">
+                                                    Preview
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#dropdown-form-code" data-toggle="tab" aria-expanded="true" class="nav-link">
+                                                    Code
+                                                </a>
+                                            </li>
+                                        </ul> <!-- end nav-->
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="dropdown-form-preview">
+                                                <!-- Forms -->
+                                                <div class="dropdown">
+                                                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                        Form
+                                                    </button>
+                                                    <div class="dropdown-menu">
+                                                        <form class="px-4 py-3">
+                                                            <div class="form-group">
+                                                                <label for="exampleDropdownFormEmail1">Email address</label>
+                                                                <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleDropdownFormPassword1">Password</label>
+                                                                <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <div class="form-check">
+                                                                    <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                                                                    <label class="form-check-label" for="dropdownCheck">
+                                                                        Remember me
+                                                                    </label>
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-primary">Sign in</button>
+                                                        </form>
+                                                        <div class="dropdown-divider"></div>
+                                                        <a class="dropdown-item" href="#">New around here? Sign up</a>
+                                                        <a class="dropdown-item" href="#">Forgot password?</a>
+                                                    </div>
+                                                </div>
+                                            </div> <!-- end preview-->
+                                        
+                                            <div class="tab-pane" id="dropdown-form-code">
+                                                <pre class="mb-0">
+                                                    <span class="html escape">
+                                                        &lt;!-- Forms --&gt;
+                                                        &lt;div class=&quot;dropdown&quot;&gt;
+                                                            &lt;button type=&quot;button&quot; class=&quot;btn btn-secondary dropdown-toggle&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;
+                                                                Form
+                                                            &lt;/button&gt;
+                                                            &lt;div class=&quot;dropdown-menu&quot;&gt;
+                                                                &lt;form class=&quot;px-4 py-3&quot;&gt;
+                                                                    &lt;div class=&quot;form-group&quot;&gt;
+                                                                        &lt;label for=&quot;exampleDropdownFormEmail1&quot;&gt;Email address&lt;/label&gt;
+                                                                        &lt;input type=&quot;email&quot; class=&quot;form-control&quot; id=&quot;exampleDropdownFormEmail1&quot; placeholder=&quot;email@example.com&quot;&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;div class=&quot;form-group&quot;&gt;
+                                                                        &lt;label for=&quot;exampleDropdownFormPassword1&quot;&gt;Password&lt;/label&gt;
+                                                                        &lt;input type=&quot;password&quot; class=&quot;form-control&quot; id=&quot;exampleDropdownFormPassword1&quot; placeholder=&quot;Password&quot;&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;div class=&quot;form-group&quot;&gt;
+                                                                        &lt;div class=&quot;form-check&quot;&gt;
+                                                                            &lt;input type=&quot;checkbox&quot; class=&quot;form-check-input&quot; id=&quot;dropdownCheck&quot;&gt;
+                                                                            &lt;label class=&quot;form-check-label&quot; for=&quot;dropdownCheck&quot;&gt;
+                                                                                Remember me
+                                                                            &lt;/label&gt;
+                                                                        &lt;/div&gt;
+                                                                    &lt;/div&gt;
+                                                                    &lt;button type=&quot;submit&quot; class=&quot;btn btn-primary&quot;&gt;Sign in&lt;/button&gt;
+                                                                &lt;/form&gt;
+                                                                &lt;div class=&quot;dropdown-divider&quot;&gt;&lt;/div&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;New around here? Sign up&lt;/a&gt;
+                                                                &lt;a class=&quot;dropdown-item&quot; href=&quot;#&quot;&gt;Forgot password?&lt;/a&gt;
+                                                            &lt;/div&gt;
+                                                        &lt;/div&gt;
+                                                    </span>
+                                                </pre> <!-- end highlight-->
+                                            </div> <!-- end preview code-->
+                                        </div> <!-- end tab-content-->
+                                    </div> <!-- end card-body -->
+                                </div> <!-- end card-->
+
+                            </div> <!-- end col -->
+                        </div>
+                        <!-- end row -->
+
+                    </div>
+                    <!-- container -->
+
+                </div>
+                <!-- content -->
+
+                <!-- Footer Start -->
+                <footer class="footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <script>document.write(new Date().getFullYear())</script> © Hyper - Coderthemes.com
+                            </div>
+                            <div class="col-md-6">
+                                <div class="text-md-right footer-links d-none d-md-block">
+                                    <a href="javascript: void(0);">About</a>
+                                    <a href="javascript: void(0);">Support</a>
+                                    <a href="javascript: void(0);">Contact Us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                <!-- end Footer -->
+
+            </div>
+
+            <!-- ============================================================== -->
+            <!-- End Page content -->
+            <!-- ============================================================== -->
+
+
+        </div>
+        <!-- END wrapper -->
+
+        <!-- Right Sidebar -->
+        <div class="right-bar">
+
+          <div class="rightbar-title">
+            <a href="javascript:void(0);" class="right-bar-toggle float-right">
+              <i class="dripicons-cross noti-icon"></i>
+            </a>
+            <h5 class="m-0">Settings</h5>
+          </div>
+
+          <div class="rightbar-content h-100" data-simplebar>
+
+            <div class="p-3">
+              <div class="alert alert-warning" role="alert">
+                <strong>Customize </strong> the overall color scheme, layout width, etc.
+              </div>
+
+              <!-- Settings -->
+              <h5 class="mt-3">Color Scheme</h5>
+              <hr class="mt-1" />
+
+              <div class="custom-control custom-switch mb-1">
+                <input type="radio" class="custom-control-input" name="color-scheme-mode" value="light" id="light-mode-check"
+                  checked />
+                <label class="custom-control-label" for="light-mode-check">Light Mode</label>
+              </div>
+
+              <div class="custom-control custom-switch mb-1">
+                <input type="radio" class="custom-control-input" name="color-scheme-mode" value="dark" id="dark-mode-check" />
+                <label class="custom-control-label" for="dark-mode-check">Dark Mode</label>
+              </div>
+
+              <!-- Width -->
+              <h5 class="mt-4">Width</h5>
+              <hr class="mt-1"/>
+              <div class="custom-control custom-switch mb-1">
+                <input type="radio" class="custom-control-input" name="width" value="fluid" id="fluid-check" checked />
+                <label class="custom-control-label" for="fluid-check">Fluid</label>
+              </div>
+              <div class="custom-control custom-switch mb-1">
+                <input type="radio" class="custom-control-input" name="width" value="boxed" id="boxed-check" />
+                <label class="custom-control-label" for="boxed-check">Boxed</label>
+              </div>
+
+      
+
+              <button class="btn btn-primary btn-block mt-4" id="resetBtn">Reset to Default</button>
+
+              <a href="https://themes.getbootstrap.com/product/hyper-responsive-admin-dashboard-template/" class="btn btn-danger btn-block mt-3" target="_blank"><i class="mdi mdi-basket mr-1"></i> Purchase Now</a>
+            </div> <!-- end padding-->
+
+          </div>
+        </div>
+
+        <div class="rightbar-overlay"></div>
+        <!-- /Right-bar -->
+
+        <!-- bundle -->
+        <script src="assets/js/vendor.min.js"></script>
+        <script src="assets/js/app.min.js"></script>
+
+    </body>
+</html>
